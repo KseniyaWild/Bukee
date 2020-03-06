@@ -5,3 +5,152 @@
 @import "base/fonts";
 @import "base/general";
 @import "../blocks/modules";
+
+/*Connecting fonts*/
+
+
+/*Specification*/
+body {
+    font-family: 'Roboto Slab', serif;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+header, div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+	font-size: 35px;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2{
+	margin: 0;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 400;
+	color: #000;
+}
+
+h3 {
+	margin: 0;
+	font-size: 25px;
+	color: #000;
+	font-weight: 700;
+}
+
+h4{
+	margin: 0;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+
+h5{
+	margin: 0;
+	font-size: 15px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+{
+	outline: none;
+}
+
+img{
+	width: 100%;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.container-fluid_plain{
+	padding: 0;
+}
+
+/*--------------------Header------------------*/
+
+.header {
+    background: rgba(69,112,137,1);
+    background: -moz-linear-gradient(-45deg, rgba(69,112,137,1) 0%, rgba(81,170,157,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(69,112,137,1)), color-stop(100%, rgba(81,170,157,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(69,112,137,1) 0%, rgba(81,170,157,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(69,112,137,1) 0%, rgba(81,170,157,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(69,112,137,1) 0%, rgba(81,170,157,1) 100%);
+    background: linear-gradient(135deg, rgba(69,112,137,1) 0%, rgba(81,170,157,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#457089', endColorstr='#51aa9d', GradientType=1 );
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__logo {
+		background: url(../img/logo.svg);
+		width: 137px;
+		height: 28px;
+		display: block;
+	}
+}
+
+.menu {
+	display: flex;
+	&__item {
+		margin-left: 15px;
+	}
+}
+
+/*Media Requests*/
+/*992-1200*/
+@media screen and (max-width: 1200px) {
+
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+
+}
+
+/* 400-576px */
+@media screen and (max-width: 576px) {
+
+}
+
+/* 320-400px */
+@media screen and (max-width: 400px) {
+
+
+}
